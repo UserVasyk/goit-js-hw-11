@@ -1,0 +1,28 @@
+{
+  "name": "goit-js-hw-11",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UserVasyk/goit-js-hw-11.git"
+  },
+  "author": "Kutsyi Vasyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UserVasyk/goit-js-hw-11/issues"
+  },
+  "homepage": "https://github.com/UserVasyk/goit-js-hw-11",
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.11.0"
+  }
+}
