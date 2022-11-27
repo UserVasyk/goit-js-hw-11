@@ -22,6 +22,7 @@
     "posthtml-include": "^1.7.4"
   },
   "dependencies": {
+    "lodash.throttle": "^4.1.1",
     "notiflix": "^3.2.5",
     "simplelightbox": "^2.11.0"
   }

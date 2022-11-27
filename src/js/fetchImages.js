@@ -3,7 +3,7 @@ function fetchImages(searchValue, page) {
   const BASE_URL = 'https://pixabay.com/api/';
 
   return fetch(
-    `${BASE_URL}?key=${KEY_API}&q=${searchValue}&image_type=photo&safesearch=true&orientation=horizontal&page=${page}&per_page=12`
+    `${BASE_URL}?key=${KEY_API}&q=${searchValue}&image_type=photo&safesearch=true&orientation=horizontal&page=${page}&per_page=8`
   ).then(response => {
     if (!response.ok) {
       throw new Error();
