@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/UserVasyk/goit-js-hw-11",
   "devDependencies": {
+    "buffer": "^5.7.1",
     "parcel": "^2.8.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
   "dependencies": {
+    "axios": "^1.2.0",
     "lodash.throttle": "^4.1.1",
     "notiflix": "^3.2.5",
     "simplelightbox": "^2.11.0"
